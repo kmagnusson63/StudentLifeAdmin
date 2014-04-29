@@ -1,0 +1,39 @@
+/*tokens CSS*/
+
+form[action="index.php?t=tokens"] table
+{
+    position: absolute;
+    top: 30px;
+    width: 85% !important;
+    left: 160px;
+}
+
+form[action="index.php?t=tokens"] table tr td
+{
+    word-break: break-all;
+    text-align: center;
+}
+
+form[action="index.php?t=tokens"] table tr td:nth-of-type(3)
+{
+    width: 75px;
+}
+
+form[action="index.php?t=tokens"] table tr td:nth-of-type(4),
+form[action="index.php?t=tokens"] table tr td:nth-of-type(5)
+{
+    width: 125px;
+}
+
+form[action="index.php?t=tokens"] table tr td:nth-of-type(7)
+{
+    width: 165px;
+}
+
+form[action="index.php?t=tokens"] #form_crud_top,
+form[action="index.php?t=tokens"] #form_crud_bottom,
+form[action="index.php?t=tokens"] #paging
+{
+    display: none;
+}
+

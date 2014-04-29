@@ -1,0 +1,42 @@
+/*users CSS*/
+form[action="index.php?t=users"] table
+{
+    left: 30px;
+    position: absolute;
+    top: 15px;
+}
+form[action="index.php?t=users"] #form_crud_top
+{
+    position: absolute;
+    right: 310px;
+    top: 20px;
+}
+form[action="index.php?t=users"] #form_crud_bottom
+{
+    bottom: 250px;
+    position: absolute;
+    right: 310px;
+}
+form[action="index.php?t=users"] #table_wrapper
+{
+    left: 405px;
+    position: absolute;
+    top: 30px;
+    width: 50%;
+}
+
+form[action="index.php?t=users"] #paging
+{
+    position: absolute;
+    right: 315px;
+    top: 325px;
+}
+
+
+form[action="index.php?t=users"] #delete_table
+{
+    width: 75%;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}

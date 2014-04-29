@@ -1,0 +1,206 @@
+html, body, #content, #map_wrapper, #map_canvas
+{
+	height: 100%;
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body
+{
+	overflow-x: hidden;
+}
+
+#content
+{
+	position: relative;
+}
+
+#table_list
+{
+	float: left;
+	height: 100% !important;
+	width: 9%;
+	margin: 0;
+	border-right: 1px solid #e0e0e0;
+}
+
+#table_list ol li:nth-of-type(3)
+{
+	font-size: 17px;
+}
+
+#table_list h2
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#table_list ol
+{
+	list-style: none;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+#table table
+{
+	padding:0px;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px #000;
+	border-collapse: collapse;
+}
+
+.edit_table table
+{
+	margin-left: 270px !important;
+	margin-top: 5px;
+}
+
+input[name="confirm"]
+{
+    position: absolute;
+    right: 310px;
+    top: 20px;
+}
+
+#delete_table
+{
+	width: 75%;
+	position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+#table caption
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+#table table tr:nth-of-type(odd)
+{
+	background-color: #DCDCDC;
+}
+#table table tr:nth-of-type(even)
+{
+	background-color: #F0EAD6;
+}
+#table table tr:first-of-type
+{
+	background-color: white;
+}
+#table table tr th, #table table tr td
+{
+	padding:0 7px 0 7px;
+}
+#table table tr th:nth-of-type(1), #table table tr td:nth-of-type(1)
+{
+	text-align: left !important;
+}
+#table table tr td:nth-of-type(2)
+{
+	/*width: 70px;*/
+	text-align: right;
+	padding-right:5px;
+}
+#table table tr td:nth-of-type(3)
+{
+	/*width: 300px;*/
+	text-align: center;
+	padding:0 10px;
+}
+#login
+{
+	margin: 50px auto;
+	border-radius: 5px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px black;
+	width: 300px;
+	background-color: teal;
+
+}
+#login ul
+{
+	padding:0;
+	margin: 20px auto;
+	text-align: center;
+	list-style: none;
+}
+#login ul li
+{
+	margin-bottom:20px;
+}
+
+#login ul li label
+{
+	display:inline-block;
+	width: 75px;
+	padding-right: 5px;
+	text-align: left;
+}
+#login ul li input
+{
+	margin-left: 10px;
+
+}
+
+
+body, header, header ul
+{
+	margin: 0;
+	padding: 0;
+
+}
+header
+{
+	position: relative;
+	height: 70px;
+	border-bottom: 1px solid #e0e0e0;
+
+}
+
+header img
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+header a p
+{
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	color: teal;
+	font-size: 1.5em;
+	text-shadow: 0px 2px 1px black;
+	text-decoration: none;
+}
+
+header a
+{
+	float: right;
+	margin:20px 20px 0 0;
+}
+
+
+
+footer
+{
+	border-top: 1px solid #e0e0e0;
+}
+
+footer h4
+{
+	color: red;
+	font-size: .75em;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 0px 1px 1px black;
+}

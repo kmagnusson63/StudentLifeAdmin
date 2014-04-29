@@ -1,0 +1,21 @@
+/*admins CSS*/
+form[action="index.php?t=admins"] table
+{
+	position: absolute;
+    top: 25px;
+    left: 550px;
+}
+
+form[action="index.php?t=admins"] #form_crud_top
+{
+	position: absolute;
+	top: 25px;
+	right: 390px;
+}
+
+form[action="index.php?t=admins"] #form_crud_bottom, 
+form[action="index.php?t=admins"] #paging
+{
+	display: none;
+}
+

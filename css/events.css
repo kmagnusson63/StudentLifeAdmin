@@ -1,0 +1,76 @@
+/*events.php CSS*/
+#map_wrapper
+{
+	position: absolute;
+	top: 20px;
+	left: 190px;
+	width: 30%;
+	height: 50%;	
+
+}
+#map_canvas
+{
+	border:2px solid red;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	padding-left: 10px;
+	margin-top: 30px;
+	margin-left: -33px;
+}
+
+#events_table
+{
+    position: absolute;
+    left: 400px;
+    top: 1px;
+}
+
+#events_table #table_wrapper
+{
+	height: 500px;
+    overflow-y: scroll;
+    padding: 15px 10px;
+    margin-top: 25px;
+    border: #e0e0e0 1px solid;
+}
+
+#events_table #form_crud_top
+{
+	position: absolute;
+    top: -3px;
+    right: 0px
+}
+
+#events_table #form_crud_bottom
+{
+	position: absolute;
+    right: 0px;
+    margin-top: 15px;
+}
+
+
+#events_table footer
+{
+	margin-left: -652px;
+    margin-top: 50px;
+    width: 1374px;
+}
+
+form[action="index.php?t=events"] #paging
+{
+	text-align: right;
+}
+
+form[action="index.php?t=events"] #delete_table
+{
+	width: 75%;
+	position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.edit_table form[action="index.php?t=events"] table
+{
+	margin-left: 215px !important;
+	margin-top: 5px;
+}

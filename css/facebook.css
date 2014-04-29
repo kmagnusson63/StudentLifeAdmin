@@ -1,0 +1,39 @@
+/* facebook CSS*/
+form[action="index.php?t=facebook"] table
+{
+    position: absolute;
+    top: 30px;
+    width: 90% !important;
+    left: 120px;
+}
+
+form[action="index.php?t=facebook"] table tr td
+{
+    word-break: break-all;
+    text-align: center;
+}
+
+form[action="index.php?t=facebook"] table tr td:nth-of-type(3)
+{
+    width: 75px;
+}
+
+form[action="index.php?t=facebook"] table tr td:nth-of-type(4)
+{
+    width: 75px;
+}
+
+form[action="index.php?t=facebook"] table tr td:nth-of-type(7)
+{
+    width: 65px;
+}
+
+form[action="index.php?t=facebook"] #form_crud_top
+{
+    display: none;
+}
+
+form[action="index.php?t=facebook"] #form_crud_bottom
+{
+    display: none;
+}
