@@ -18,9 +18,21 @@ form[action="index.php?t=posts"] table
 	position: relative;
     /*left: 15px;*/
     top: 0;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 }
+
+/*form[action="index.php?t=posts"] table tr td:nth-of-type(5)
+{
+    width: 349px !important;
+}
+*/
+form[action="index.php?t=posts"] table tr td:nth-of-type(6),
+form[action="index.php?t=posts"] table tr td:nth-of-type(7)
+{
+    word-break: break-all;
+}
+
 
 form[action="index.php?t=posts"] #table_wrapper
 {
@@ -49,6 +61,6 @@ form[action="index.php?t=posts"] #paging
 {
 	width: 242px;
     position: relative;
-    left: -50px;
+    left: -136px;
     top: 15px
 }
